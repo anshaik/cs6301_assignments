@@ -1,3 +1,156 @@
 body {
-	background-color: black;
+	font-family: sans-serif;
+}
+
+#intro table {
+	margin-left:auto; 
+    margin-right:auto;
+    background-color: rgba(0,0,0,0.1);
+}
+
+#intro td {
+	color: #C75B12;
+	padding: 5px;
+}
+
+.intro-content {
+	position: relative;
+	vertical-align: middle;
+	color: #C75B12;
+	background-color: rgba(0,0,0,0.1);
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bold;
+}
+
+.intro {
+	background: url(../img/intro.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 765px;
+}
+
+#main td {
+	padding: 5px
+}
+
+.circular {
+	height: 200px;
+	width: 200px;
+	background-image: url('../img/adil.jpg');
+	background-size: cover;
+	display: block;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ion-social-linkedin {
+	color: white;
+}
+
+.ion-social-twitter {
+	color: blue;
+}
+
+.social{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.utd {
+	color: red;
+	font-weight: bold;
+}
+
+/* unvisited link */
+a:link {
+    color: #C75B12;
+}
+
+/* visited link */
+a:visited {
+    color: #C75B12;
+}
+
+/* mouse over link */
+a:hover {
+    background-color: #008542;
+}
+
+/* selected link */
+a:active {
+    color: #C75B12;
+}
+
+img {
+	float: left;
+}
+
+#hackdfw-logo{
+	width: 5%;
+}
+
+/* tool tip CSS */
+[data-tooltip] {
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+	visibility: hidden;
+	opacity: 0;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	margin-bottom: 5px;
+	margin-left: -80px;
+	padding: 7px;
+	width: 160px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius:    3px;
+	border-radius:         3px;
+	background-color: #000;
+	background-color: hsla(0, 0%, 20%, 0.9);
+	color: #fff;
+	content: attr(data-tooltip);
+	text-align: center;
+	font-size: 14px;
+	line-height: 1.2;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+	position: absolute;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -5px;
+	width: 0;
+	border-top: 5px solid #000;
+	border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	content: " ";
+	font-size: 0;
+	line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+	visibility: visible;
+	opacity: 1;
 }

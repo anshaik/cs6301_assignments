@@ -21,10 +21,13 @@ In your page’s HTML, make sure to include following elements.
 Part 2 – Add style to your page
 
 Add a CSS file called index.css to your webpage. Make the following changes and additions to your index.html file:
+
 1. Add a photograph of yourself and float it to the left side of a paragraph using CSS. The paragraph can include short information about yourself. Add border and margins to the image.
 
 2. Change the font used throughout the document to sans-serif. 
+
 3. Center the heading with your name in it.
+
 4. Setup your links to use the “:hover” pseudo-class (use a:hover so that only the links are effected). How the link changes when the mouse moves on top of it is up to you, but if you’re short on ideas, just have the link change colors.
 
 5. Add <span> tags and setup your style sheet so that every time the word “UTD” appears, it is in “red” and is in bold.
